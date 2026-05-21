@@ -84,7 +84,14 @@ section h2 {
     padding: 25px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    align-items: center;
+    
+
+    a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 /* UBICACION FLEX */
@@ -131,6 +138,9 @@ iframe {
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 15px;
     margin-bottom: 60px;
+    img {
+        padding: 10px;
+    }
 }
 
 .imagen {
