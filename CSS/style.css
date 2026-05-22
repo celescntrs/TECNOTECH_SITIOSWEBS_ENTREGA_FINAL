@@ -24,6 +24,7 @@ header {
 header h1 {
     font-size: 3rem;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 
@@ -128,6 +129,7 @@ iframe {
     gap: 40px;
     flex-wrap: wrap;
     margin-bottom: 60px;
+    
 }
 
 .horarios div {
@@ -136,6 +138,7 @@ iframe {
     border-radius: 10px;
     width: 250px;
     text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* GALERIA GRID */
@@ -165,7 +168,7 @@ iframe {
 
 /* FOOTER */
 footer {
-    background-color: #111;
+    background: linear-gradient(to right, #1d5c3c, #000); 
     color: white;
     text-align: center;
     padding: 40px 20px;
@@ -198,3 +201,5 @@ a {
     text-decoration: none;
     color: #333;
 }
+
+
